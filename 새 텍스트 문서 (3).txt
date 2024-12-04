@@ -1,0 +1,77 @@
+HTML: 문서구조
+하이퍼링크: 문서와 문서와의 빠른 이동 
+URL 문서를 식별할 수 있는 주소 
+HTTP 통신규약 
+
+URI
+특정 페이지의 위치를 찾고자 할 때
+ex) "jdbc:mysql://localhost:3306/hrdb"
+jdbc:mysql : 통신규약 
+localhost: 주소 
+3306: 포트
+hrdb: path 
+
+서버: 정보를 주는 아이 
+클라이언트: 정보를 받는 아이 
+한번의 요청이 가면 한번의 응답이 온다 
+
+https://n.news.naver.com/mnews/article/016/0002396976?sid=100
+= https://175.158.5.164/mnews/article/016/0002396976?sid=100
+
+https://	=> 통신 규약
+n.news.naver.com	=> 서버 주소 
+		-naver.com -> 도메인
+		-n,news -> host명
+/article/016/016/0002396976	=> 문서 경로 
+?cds = news_media_pc 	=> query string (요청 데이터) 
+
+인터넷에 연결된 PC의 주소 (IPv4) 
+
+DNS 도메인의 실제 위치를 알고 있음 
+브라우저에서 DNS에 도메인의 위치를 알려달라고 요청
+도메인 위치를 받으면 브라우저는 헤더와 바디 형태의 문서를 브로드캐스팅(뿌림) 
+어딘가에 있는 해당 문서가 응답 
+요청 / 응답 : 편지
+-봉투 (Header)
+-내용 (Body) 
+
+Visual Studio Code 
+
+Visual Studio 확장설치 
+- Korean Language Pack 
+- Live Server 
+
+GitHub 저장소 
+-GitHub 데스크탑 
+ FIle > New Repository > HTMLCSS
+Path: Documents GitHub 
+Pull Repository & Push 
+Live Server 확장 프로그램 다운로드 
+*Korean Language Pack
+ 
+
+샘플 프로젝트 
+-강의 자료실 
+	->ex01-renewal.zip 다운 
+	->폴더 끌어오기 
+
+[HTML]
+html의 자식은 head와 body 
+body의 children은 h1, p 
+h1 과 p는 sibling 
+메타 정보는 부가 정보 
+웹루트 구분 잘하기 (HTMLCSS가 WEBROOT) 
+-> 1. WEBROOT 
+-> 2. ex01-renw
+target=_blank 새창으로 열기
+대부분의 element는 id를 갖고 있다
+id는 절대 중복되면 안 되고, 페이지에 단 하나만 있다 
+절대경로: 웹루트 기준으로 확인하기 
+상대경로: 현재위치 기준으로 확인하기 
+방식에 따라 기준점 잡는 게 먼저다
+download -> download = true 
+속성 이름이 있으면 true, 없으면 false가 된다 
+boolean값이라 보면 된다 
+ 
+
+
